@@ -1,4 +1,4 @@
-GNATS メモ
+# GNATS メモ
 
 * [NetBSD Problem Reports](http://www.netbsd.org/support/send-pr.html "NetBSD Problem Reports")
 * [GNATS Bug Database Summary](http://gnats.netbsd.org/summary/ "GNATS Bug Database Summary")
@@ -8,3 +8,28 @@ GNATS メモ
 件名を Re: カテゴリ/番号 と書く
 
     Subject: Re: kern/5514
+
+# NetBSD のディレクトリだけビルドする
+
+TOOLDIR だけビルドしてあればいい。
+
+    cd /usr/src
+    ./build.sh tools
+
+そのあとたとえば dd をビルドする。
+
+    cd /usr/src/bin/dd
+    /usr/tools/bin/nbmake
+
+こんだけ
+
+## TOOLDIR
+
+以下のように build.sh で -T した場合は
+
+    ./build.sh -O ../obj -T ../tools tools
+
+ビルド時に TOOLDIR を指定しておくべし。
+
+    cd /usr/src/bin/dd
+    /usr/tools/bin/nbmake TOOLDIR=/usr/tools
