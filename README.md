@@ -9,6 +9,10 @@
 
     Subject: Re: kern/5514
 
+# クロスリファレンス
+
+http://nxr.netbsd.org/
+
 # NetBSD のディレクトリだけビルドする
 
 TOOLDIR だけビルドしてあればいい。
