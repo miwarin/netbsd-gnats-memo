@@ -16,7 +16,7 @@ TOOLDIR だけビルドしてあればいい。
     cd /usr/src
     ./build.sh tools
 
-そのあとたとえば dd をビルドする。
+そのあとたとえば dd をビルドする場合はこうする。
 
     cd /usr/src/bin/dd
     /usr/tools/bin/nbmake
