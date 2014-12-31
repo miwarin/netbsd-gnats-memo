@@ -9,9 +9,13 @@
 
     Subject: Re: kern/5514
 
-# クロスリファレンス
+# 参考
 
+クロスリファレンス
 http://nxr.netbsd.org/
+
+UNIXの仕様
+[Text of the Single UNIX Specification, version 3 (= POSIX:2001), 2004 edition](http://www.opengroup.org/onlinepubs/009695399/ "Text of the Single UNIX Specification, version 3 (= POSIX:2001), 2004 edition")
 
 # NetBSD のディレクトリだけビルドする
 
