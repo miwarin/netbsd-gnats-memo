@@ -29,6 +29,10 @@ TOOLDIR だけビルドしてあればいい。
     cd /usr/src/bin/dd
     /usr/tools/bin/nbmake
 
+    cd /usr/src/usr.bin/man
+    /usr/tools/bin/nbmake-i386
+
+
 こんだけ
 
 ## TOOLDIR
