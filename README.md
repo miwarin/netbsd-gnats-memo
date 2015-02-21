@@ -17,6 +17,11 @@ http://nxr.netbsd.org/
 UNIXの仕様
 [Text of the Single UNIX Specification, version 3 (= POSIX:2001), 2004 edition](http://www.opengroup.org/onlinepubs/009695399/ "Text of the Single UNIX Specification, version 3 (= POSIX:2001), 2004 edition")
 
+
+FreeBSD ソースリポジトリ
+* [ViewVC Repository Listing](https://svnweb.freebsd.org/ "ViewVC Repository Listing")
+* [freebsd/freebsd](https://github.com/freebsd/freebsd "freebsd/freebsd")
+
 # NetBSD のディレクトリだけビルドする
 
 TOOLDIR だけビルドしてあればいい。
