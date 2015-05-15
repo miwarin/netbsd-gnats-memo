@@ -2,6 +2,7 @@
 
 * [NetBSD Problem Reports](http://www.netbsd.org/support/send-pr.html "NetBSD Problem Reports")
 * [GNATS Bug Database Summary](http://gnats.netbsd.org/summary/ "GNATS Bug Database Summary")
+* [Summary of Problem Reports in State &quot;open&quot;](http://gnats.netbsd.org/summary/state/open.html "Summary of Problem Reports in State &quot;open&quot;")
 
 メール宛先 gnats-bugs@NetBSD.org
 
