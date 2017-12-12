@@ -44,6 +44,10 @@ TOOLDIR だけビルドしてあればいい。
 
 こんだけ
 
+ビルドすると以下のディレクトリに生成される。
+
+    /usr/obj/usr.bin/man/man
+
 ## TOOLDIR
 
 以下のように build.sh で -T した場合は
